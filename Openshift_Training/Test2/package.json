@@ -1,0 +1,22 @@
+{
+    "name": "app",
+    "version": "1.0.0",
+    "description": "Prueba de Node js Saludo",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "author": {
+        "name": "Omar Méndez Hernandez",
+        "email": "meho_1986@hotmail.com"
+    },
+    "license": "ISC",
+    "repository": {
+        "directory": "/Users/omendez/Documents/OpenShift_Certificate-DO101/DO101/Test2/"
+    },
+    "dependencies": {
+        "cookie-parser": "1.4.5",
+        "express": "^4.17.1",
+        "http-errors": "1.7.3"
+    }
+}
