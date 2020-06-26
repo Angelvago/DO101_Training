@@ -21,6 +21,10 @@ app.get('/saturn',function(req,res){
     res.send('Hello Saturn !! \n');
 });
 
+app.get('/neptune',function(req,res){
+    res.send('Hello Neptune !! \n');
+});
+
 app.listen(8080,function(){
     console.log('Ejecutando sobre el puerto 8080 \n');
 });
